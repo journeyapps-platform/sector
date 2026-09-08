@@ -8,7 +8,7 @@ import {
   PanelButtonWidget,
   SimpleComboBoxDirective,
   styled
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { SavedQueryStore } from '../../../stores/SavedQueryStore';
 import { SimpleQuery } from '../../../core/query/query-simple/SimpleQuery';
 import { observer } from 'mobx-react';

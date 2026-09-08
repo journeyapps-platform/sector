@@ -1,5 +1,5 @@
 import { MultipleChoiceType } from '@journeyapps/db';
-import { MultiSelectInput } from '@journeyapps-labs/reactor-mod';
+import { MultiSelectInput } from '@journeyapps/reactor-mod';
 import * as _ from 'lodash';
 import { TypeHandler, TypeHandlerContext } from './shared/type-handler';
 

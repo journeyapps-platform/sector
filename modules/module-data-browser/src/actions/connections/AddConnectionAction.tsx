@@ -1,4 +1,4 @@
-import { ActionStore, EntityAction, EntityActionEvent, inject, ioc } from '@journeyapps-labs/reactor-mod';
+import { ActionStore, EntityAction, EntityActionEvent, inject, ioc } from '@journeyapps/reactor-mod';
 import { AbstractConnectionFactory } from '../../core/AbstractConnectionFactory';
 import { DataBrowserEntities } from '../../entities';
 import { ConnectionStore } from '../../stores/ConnectionStore';

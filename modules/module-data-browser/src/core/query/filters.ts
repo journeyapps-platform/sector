@@ -1,6 +1,6 @@
 import { Query, Variable } from '@journeyapps/db';
-import { EntityLabel } from '@journeyapps-labs/reactor-mod';
-import { BaseObserver } from '@journeyapps-labs/common-utils';
+import { EntityLabel } from '@journeyapps/reactor-mod';
+import { BaseObserver } from '@journeyapps/common-utils';
 
 export interface AbstractFilterListener {
   removeRequested: () => any;

@@ -1,4 +1,4 @@
-import { TableColumn } from '@journeyapps-labs/reactor-mod';
+import { TableColumn } from '@journeyapps/reactor-mod';
 import { SchemaModelObject } from '../../SchemaModelObject';
 import { AbstractQuery } from '../AbstractQuery';
 import { Page } from '../Page';

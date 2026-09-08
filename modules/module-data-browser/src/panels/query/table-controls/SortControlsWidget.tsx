@@ -7,7 +7,7 @@ import {
   PanelButtonWidget,
   SimpleComboBoxDirective,
   styled
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { SimpleQuery, SimpleQuerySort } from '../../../core/query/query-simple/SimpleQuery';
 import { SortChipWidget } from './SortChipWidget';
 

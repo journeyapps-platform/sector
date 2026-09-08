@@ -8,8 +8,8 @@ import {
   TableButtonWidget,
   ioc,
   styled
-} from '@journeyapps-labs/reactor-mod';
-import { copyTextToClipboard } from '@journeyapps-labs/lib-reactor-utils';
+} from '@journeyapps/reactor-mod';
+import { copyTextToClipboard } from '@journeyapps/reactor-lib-utils';
 import { QueryControlPreferences } from '../../../preferences/QueryControlPreferences';
 
 export interface IDCellDisplayWidgetProps {

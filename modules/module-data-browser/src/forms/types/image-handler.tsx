@@ -1,5 +1,5 @@
 import { Attachment, PhotoType, SignatureType } from '@journeyapps/db';
-import { ImageInput, ImageMedia, styled } from '@journeyapps-labs/reactor-mod';
+import { ImageInput, ImageMedia, styled } from '@journeyapps/reactor-mod';
 import { TypeHandler, TypeHandlerContext } from './shared/type-handler';
 import { TypeUI } from './shared/ui';
 import * as React from 'react';

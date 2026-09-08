@@ -1,4 +1,4 @@
-import { inject, ReactorPanelModel } from '@journeyapps-labs/reactor-mod';
+import { inject, ReactorPanelModel } from '@journeyapps/reactor-mod';
 import { ConnectionStore } from '../../stores/ConnectionStore';
 import { observable } from 'mobx';
 import { SchemaModelDefinition } from '../../core/SchemaModelDefinition';

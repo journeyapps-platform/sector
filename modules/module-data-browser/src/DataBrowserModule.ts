@@ -6,7 +6,7 @@ import {
   ReactorModuleRegisterEvent,
   System,
   WorkspaceStore
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { ConnectionStore } from './stores/ConnectionStore';
 import { ConnectionEntityDefinition } from './entities/ConnectionEntityDefinition';
 import { ManualConnectionFactory } from './core/types/ManualConnectionFactory';

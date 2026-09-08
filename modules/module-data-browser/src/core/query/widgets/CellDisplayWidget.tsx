@@ -1,4 +1,4 @@
-import { ioc, SmartDateDisplayWidget } from '@journeyapps-labs/reactor-mod';
+import { ioc, SmartDateDisplayWidget } from '@journeyapps/reactor-mod';
 import * as React from 'react';
 import { PageRow } from '../Page';
 import { TypeEngine } from '../../../forms/TypeEngine';

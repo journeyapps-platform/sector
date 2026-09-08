@@ -1,4 +1,4 @@
-import { inject, ioc, TableColumn } from '@journeyapps-labs/reactor-mod';
+import { inject, ioc, TableColumn } from '@journeyapps/reactor-mod';
 import { ConnectionStore } from '../../../stores/ConnectionStore';
 import { Promise } from '@journeyapps/db';
 import { Page } from '../Page';

@@ -7,7 +7,7 @@ import {
   PanelButtonWidget,
   PrefsStore,
   styled
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { AbstractQuery } from '../../core/query/AbstractQuery';
 import { observer } from 'mobx-react';
 import * as _ from 'lodash';

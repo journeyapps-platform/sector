@@ -1,10 +1,4 @@
-import {
-  ActionStore,
-  EntityAction,
-  EntityActionEvent,
-  ioc,
-  setupDeleteConfirmation
-} from '@journeyapps-labs/reactor-mod';
+import { ActionStore, EntityAction, EntityActionEvent, ioc, setupDeleteConfirmation } from '@journeyapps/reactor-mod';
 import { DataBrowserEntities } from '../../entities';
 import { SchemaModelObject } from '../../core/SchemaModelObject';
 import { runDeleteSchemaModels } from '../../core/delete-schema-models';

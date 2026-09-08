@@ -1,4 +1,4 @@
-import { Btn, FormDialogDirective, FormDialogDirectiveOptions, FormModel } from '@journeyapps-labs/reactor-mod';
+import { Btn, FormDialogDirective, FormDialogDirectiveOptions, FormModel } from '@journeyapps/reactor-mod';
 import { AbstractFilter } from '../../../core/query/filters';
 
 export interface ClearableFilterFormDialogDirectiveOptions<

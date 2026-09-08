@@ -6,7 +6,7 @@ import {
   inject,
   InlineEntityEncoderComponent,
   InlineTreePresenterComponent
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { DataBrowserEntities } from '../entities';
 import { SavedQueryEntity, SavedQueryStore } from '../stores/SavedQueryStore';
 import { OpenSavedQueryAction } from '../actions/saved-queries/OpenSavedQueryAction';

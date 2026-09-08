@@ -1,7 +1,7 @@
 import { Page } from './Page';
 import { AbstractConnection } from '../AbstractConnection';
 import { v4 } from 'uuid';
-import { inject, NotificationStore, NotificationType, TableColumn, VisorStore } from '@journeyapps-labs/reactor-mod';
+import { inject, NotificationStore, NotificationType, TableColumn, VisorStore } from '@journeyapps/reactor-mod';
 import { SchemaModelObject } from '../SchemaModelObject';
 
 export abstract class AbstractQuery {

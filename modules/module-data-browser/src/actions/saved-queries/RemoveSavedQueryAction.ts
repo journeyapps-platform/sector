@@ -1,4 +1,4 @@
-import { ActionStore, EntityAction, EntityActionEvent, inject, ioc } from '@journeyapps-labs/reactor-mod';
+import { ActionStore, EntityAction, EntityActionEvent, inject, ioc } from '@journeyapps/reactor-mod';
 import { DataBrowserEntities } from '../../entities';
 import { SavedQueryEntity, SavedQueryStore } from '../../stores/SavedQueryStore';
 

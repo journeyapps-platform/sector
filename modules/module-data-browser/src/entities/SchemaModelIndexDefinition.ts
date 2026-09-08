@@ -1,8 +1,4 @@
-import {
-  EntityDefinition,
-  EntityDescriberComponent,
-  InlineTreePresenterComponent
-} from '@journeyapps-labs/reactor-mod';
+import { EntityDefinition, EntityDescriberComponent, InlineTreePresenterComponent } from '@journeyapps/reactor-mod';
 import { DataBrowserEntities } from '../entities';
 import { IndexModel } from '../core/IndexModel';
 

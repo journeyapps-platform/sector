@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ioc, TableColumn } from '@journeyapps-labs/reactor-mod';
+import { ioc, TableColumn } from '@journeyapps/reactor-mod';
 import * as _ from 'lodash';
 import { PageRow } from '../Page';
 import { CellDisplayWidget } from '../widgets/CellDisplayWidget';

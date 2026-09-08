@@ -1,5 +1,5 @@
 import { SingleChoiceType } from '@journeyapps/db';
-import { ComboBoxStore, ioc, SelectInput } from '@journeyapps-labs/reactor-mod';
+import { ComboBoxStore, ioc, SelectInput } from '@journeyapps/reactor-mod';
 import * as _ from 'lodash';
 import { TypeHandler } from './shared/type-handler';
 import { Condition, SimpleFilter, Statement } from '../../core/query/filters';

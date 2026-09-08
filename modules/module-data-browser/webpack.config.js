@@ -1,4 +1,4 @@
-const { patchExportedLibrary, patchImportedLibrary } = require('@journeyapps-labs/lib-reactor-builder');
+const { patchExportedLibrary, patchImportedLibrary } = require('@journeyapps/reactor-lib-builder');
 module.exports = (webpack) => {
   webpack = patchExportedLibrary({
     w: webpack,

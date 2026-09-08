@@ -6,7 +6,7 @@ import {
   NotificationType,
   ReactorPanelModel,
   WorkspaceStore
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import * as _ from 'lodash';
 import { SchemaModelObject } from './SchemaModelObject';
 import { QueryPanelModel } from '../panels/query/QueryPanelFactory';

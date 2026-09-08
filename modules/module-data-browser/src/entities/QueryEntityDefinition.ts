@@ -1,4 +1,4 @@
-import { EntityDefinition, inject, InlineEntityEncoderComponent } from '@journeyapps-labs/reactor-mod';
+import { EntityDefinition, inject, InlineEntityEncoderComponent } from '@journeyapps/reactor-mod';
 import { DataBrowserEntities } from '../entities';
 import { ConnectionStore } from '../stores/ConnectionStore';
 import { SimpleQuery } from '../core/query/query-simple/SimpleQuery';

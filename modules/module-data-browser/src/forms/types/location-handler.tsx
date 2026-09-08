@@ -1,5 +1,5 @@
 import { Location, LocationType } from '@journeyapps/db';
-import { MetadataWidget, styled } from '@journeyapps-labs/reactor-mod';
+import { MetadataWidget, styled } from '@journeyapps/reactor-mod';
 import * as React from 'react';
 import { LocationInput } from '../inputs/LocationInput';
 import { TypeHandler } from './shared/type-handler';

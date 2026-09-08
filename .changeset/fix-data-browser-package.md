@@ -1,5 +1,5 @@
 ---
-'@journeyapps-labs/reactor-mod-data-browser': patch
+'@ja-platform/reactor-mod-data-browser': patch
 ---
 
-Include the compiled Reactor module bundle in the published package.
+Publish the data browser as `@ja-platform/reactor-mod-data-browser` on npm and include the compiled Reactor module bundle.

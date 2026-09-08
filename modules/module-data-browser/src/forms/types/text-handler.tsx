@@ -10,7 +10,7 @@ import {
   TextInputType,
   ioc,
   styled
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import * as React from 'react';
 import { ModelJsonPanelModel } from '../../panels/model-json/ModelJsonPanelFactory';
 import { TypeHandler, TypeHandlerContext } from './shared/type-handler';

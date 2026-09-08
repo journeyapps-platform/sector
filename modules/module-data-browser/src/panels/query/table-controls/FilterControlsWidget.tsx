@@ -8,7 +8,7 @@ import {
   SimpleComboBoxDirective,
   ioc,
   styled
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { SimpleQuery } from '../../../core/query/query-simple/SimpleQuery';
 import { SmartFilterMetadataWidget } from '../../../core/query/widgets/SmartFilterWidget';
 

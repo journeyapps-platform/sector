@@ -1,7 +1,7 @@
 import { ApiObjectData, DatabaseAdapter, DatabaseObject } from '@journeyapps/db';
 import { SchemaModelDefinition } from './SchemaModelDefinition';
 import { action, observable, runInAction } from 'mobx';
-import { inject, NotificationStore, NotificationType, VisorStore } from '@journeyapps-labs/reactor-mod';
+import { inject, NotificationStore, NotificationType, VisorStore } from '@journeyapps/reactor-mod';
 
 export interface SchemaModelObjectOptions {
   definition: SchemaModelDefinition;

@@ -1,6 +1,6 @@
 import { AbstractConnectionFactory } from '../AbstractConnectionFactory';
 import { ManualConnection } from './ManualConnection';
-import { DialogStore2, FormDialogDirective, inject } from '@journeyapps-labs/reactor-mod';
+import { DialogStore2, FormDialogDirective, inject } from '@journeyapps/reactor-mod';
 import { APIConnectionForm } from '../../forms/APIConnectionForm';
 
 export class ManualConnectionFactory extends AbstractConnectionFactory<ManualConnection> {

@@ -7,7 +7,7 @@ import {
   theme,
   ThemeStore,
   WorkspaceStore
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { AbstractQuery } from '../../../core/query/AbstractQuery';
 import { Page } from '../../../core/query/Page';
 import { ChangedModelQuery } from '../../../core/query/query-changed/ChangedModelQuery';

@@ -1,8 +1,8 @@
 import { ApiCredentialOptions, Database } from '@journeyapps/db';
 import { AbstractConnection } from '../AbstractConnection';
 import { ManualConnectionFactory } from './ManualConnectionFactory';
-import { EntityDescription } from '@journeyapps-labs/reactor-mod';
-import { createWebNetworkClient } from '@journeyapps-labs/common-sdk';
+import { EntityDescription } from '@journeyapps/reactor-mod';
+import { createWebNetworkClient } from '@journeyapps/common-sdk';
 import { V4BackendClient } from '@journeyapps-labs/client-backend-v4';
 import * as path from 'path';
 

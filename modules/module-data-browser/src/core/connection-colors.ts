@@ -1,4 +1,4 @@
-import { ComboBoxItem } from '@journeyapps-labs/reactor-mod';
+import { ComboBoxItem } from '@journeyapps/reactor-mod';
 
 export interface ConnectionColorOption {
   key: string;

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { EditSchemaModelAction } from '../../../actions/schema-model/EditSchemaModelAction';
 import { BelongsToDisplayWidget } from './BelongsToDisplayWidget';
 import { PageRow } from '../Page';
-import { ActionSource, styled } from '@journeyapps-labs/reactor-mod';
+import { ActionSource, styled } from '@journeyapps/reactor-mod';
 import { AbstractConnection } from '../../AbstractConnection';
 import { SchemaModelObject } from '../../SchemaModelObject';
 import { Variable } from '@journeyapps/db';

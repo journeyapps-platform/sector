@@ -1,0 +1,23 @@
+{
+  "enabled": [],
+  "groups": [
+    {
+      "name": "reactor-oss",
+      "links": {
+        "@journeyapps/reactor-mod": "../../journeyapps/reactor/modules/module-reactor",
+        "@journeyapps/reactor-mod-editor": "../../journeyapps/reactor/modules/module-editor",
+        "@journeyapps/reactor-lib-data-layer": "../../journeyapps/reactor/libs/lib-reactor-data-layer",
+        "@journeyapps/reactor-lib-search": "../../journeyapps/reactor/libs/lib-reactor-search",
+        "@journeyapps/reactor-lib-utils": "../../journeyapps/reactor/libs/lib-reactor-utils",
+        "@journeyapps/reactor-lib-builder": "../../journeyapps/reactor/libs/lib-reactor-builder"
+      }
+    },
+    {
+      "name": "reactor",
+      "links": {
+        "@journeyapps-platform/reactor-mod": "../reactor/modules/module-reactor",
+        "@journeyapps-platform/lib-reactor-utils": "../reactor/libs/lib-reactor-utils"
+      }
+    }
+  ]
+}

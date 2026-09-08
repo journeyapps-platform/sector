@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { themed } from '@journeyapps-labs/reactor-mod';
+import { themed } from '@journeyapps/reactor-mod';
 
 export interface EmptyValueWidgetProps {
   label?: string;

@@ -1,4 +1,4 @@
-import { FormModel, SelectInput, TextInput, TextInputType } from '@journeyapps-labs/reactor-mod';
+import { FormModel, SelectInput, TextInput, TextInputType } from '@journeyapps/reactor-mod';
 import { ManualConnection } from '../core/types/ManualConnection';
 import { ManualConnectionFactory } from '../core/types/ManualConnectionFactory';
 import { DEFAULT_CONNECTION_COLOR, getConnectionColorSetOptions } from '../core/connection-colors';

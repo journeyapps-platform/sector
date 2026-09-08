@@ -1,8 +1,8 @@
 import { Type, Variable } from '@journeyapps/db';
-import { FormInput } from '@journeyapps-labs/reactor-mod';
+import { FormInput } from '@journeyapps/reactor-mod';
 import { JSX } from 'react';
 import { SchemaModelObject } from '../../../core/SchemaModelObject';
-import { AbstractMedia, MediaEngine, WorkspaceStore } from '@journeyapps-labs/reactor-mod';
+import { AbstractMedia, MediaEngine, WorkspaceStore } from '@journeyapps/reactor-mod';
 import { SimpleFilter } from '../../../core/query/filters';
 
 export type ScalarValue = string | number | boolean | null;

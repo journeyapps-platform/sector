@@ -105,21 +105,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@journeyapps-labs/reactor-mod': npm:@journeyapps/reactor-mod@8.1.4
-  '@journeyapps-labs/reactor-mod-editor': npm:@journeyapps/reactor-mod-editor@2.3.12
-  '@journeyapps-labs/lib-reactor-builder': npm:@journeyapps/reactor-lib-builder@3.1.3
-  '@journeyapps-labs/lib-reactor-data-layer': npm:@journeyapps/reactor-lib-data-layer@1.0.16
-  '@journeyapps-labs/lib-reactor-search': npm:@journeyapps/reactor-lib-search@1.0.16
-  '@journeyapps-labs/lib-reactor-server': npm:@journeyapps/reactor-lib-server@2.1.3
-  '@journeyapps-labs/lib-reactor-utils': npm:@journeyapps/reactor-lib-utils@2.0.15
-  '@journeyapps-labs/common-ioc': npm:@journeyapps/common-ioc@1.0.3
-  '@journeyapps-labs/common-logger': npm:@journeyapps/common-logger@1.1.2
-  '@journeyapps-labs/common-sdk': npm:@journeyapps/common-sdk@1.1.0
-  '@journeyapps-labs/common-tree': npm:@journeyapps/common-tree@3.0.2
-  '@journeyapps-labs/common-utils': npm:@journeyapps/common-utils@1.0.3
-  '@journeyapps-platform/sdk-common': npm:@journeyapps/common-sdk@1.1.0
-
 importers:
 
   .:
@@ -151,9 +136,9 @@ importers:
       '@fortawesome/react-fontawesome':
         specifier: ^3.5.0
         version: 3.5.0(@fortawesome/fontawesome-svg-core@7.3.1)(react@19.2.8)
-      '@journeyapps-labs/client-backend-v4':
-        specifier: 1.0.0
-        version: 1.0.0(@types/json-schema@7.0.15)
+      '@ja-platform/sdk-backend-v4':
+        specifier: 2.0.0
+        version: 2.0.0(@types/json-schema@7.0.15)
       '@journeyapps/common-ioc':
         specifier: ^1.0.3
         version: 1.0.3
@@ -170,17 +155,17 @@ importers:
         specifier: ^8.2.5
         version: 8.2.5(fp-ts@2.16.11)
       '@journeyapps/reactor-lib-data-layer':
-        specifier: 1.0.16
-        version: 1.0.16
+        specifier: 1.0.18
+        version: 1.0.18
       '@journeyapps/reactor-lib-utils':
-        specifier: 2.0.15
-        version: 2.0.15
+        specifier: 2.0.17
+        version: 2.0.17
       '@journeyapps/reactor-mod':
-        specifier: 8.1.4
-        version: 8.1.4(@babel/runtime@7.29.7)(@types/react@19.2.18)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@10.2.2)
+        specifier: 8.1.6
+        version: 8.1.6(@babel/runtime@7.29.7)(@types/react@19.2.18)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@10.2.2)
       '@journeyapps/reactor-mod-editor':
-        specifier: 2.3.12
-        version: 2.3.12(@babel/runtime@7.29.7)(@emotion/react@11.14.0(@types/react@19.2.18)(react@19.2.8)(supports-color@10.2.2))(@types/react@19.2.18)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@10.2.2)
+        specifier: 2.3.14
+        version: 2.3.14(@babel/runtime@7.29.7)(@emotion/react@11.14.0(@types/react@19.2.18)(react@19.2.8)(supports-color@10.2.2))(@types/react@19.2.18)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@10.2.2)
       '@projectstorm/react-workspaces-core':
         specifier: 4.3.2
         version: 4.3.2(@types/react@19.2.18)(supports-color@10.2.2)
@@ -190,6 +175,9 @@ importers:
       async:
         specifier: ^3.2.6
         version: 3.2.6
+      bson:
+        specifier: 7.3.2
+        version: 7.3.2
       lodash:
         specifier: ^4.18.1
         version: 4.18.1
@@ -210,8 +198,8 @@ importers:
         version: 14.0.2
     devDependencies:
       '@journeyapps/reactor-lib-builder':
-        specifier: 3.1.3
-        version: 3.1.3(js-yaml@5.4.1)(json5@2.2.3)(postcss@8.5.28)
+        specifier: 3.1.5
+        version: 3.1.5(js-yaml@5.4.1)(json5@2.2.3)(postcss@8.5.28)
       '@types/async':
         specifier: ^3.2.25
         version: 3.2.25
@@ -237,8 +225,8 @@ importers:
         specifier: ^1.0.3
         version: 1.0.3
       '@journeyapps/reactor-mod':
-        specifier: 8.1.4
-        version: 8.1.4(@babel/runtime@7.29.7)(@types/react@19.2.18)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@10.2.2)
+        specifier: 8.1.6
+        version: 8.1.6(@babel/runtime@7.29.7)(@types/react@19.2.18)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@10.2.2)
       mobx:
         specifier: ^7.0.3
         version: 7.0.3
@@ -250,8 +238,8 @@ importers:
         version: 14.0.2
     devDependencies:
       '@journeyapps/reactor-lib-builder':
-        specifier: 3.1.3
-        version: 3.1.3(js-yaml@5.4.1)(json5@2.2.3)(postcss@8.5.28)
+        specifier: 3.1.5
+        version: 3.1.5(js-yaml@5.4.1)(json5@2.2.3)(postcss@8.5.28)
 
   server:
     dependencies:
@@ -262,14 +250,14 @@ importers:
         specifier: workspace:^
         version: link:../modules/module-sector
       '@journeyapps/reactor-lib-server':
-        specifier: 2.1.3
-        version: 2.1.3(supports-color@5.5.0)
+        specifier: 2.1.5
+        version: 2.1.5(supports-color@5.5.0)
       '@journeyapps/reactor-mod':
-        specifier: 8.1.4
-        version: 8.1.4(@babel/runtime@7.29.7)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@5.5.0)
+        specifier: 8.1.6
+        version: 8.1.6(@babel/runtime@7.29.7)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@5.5.0)
       '@journeyapps/reactor-mod-editor':
-        specifier: 2.3.12
-        version: 2.3.12(@babel/runtime@7.29.7)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@5.5.0)
+        specifier: 2.3.14
+        version: 2.3.14(@babel/runtime@7.29.7)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@5.5.0)
       compression:
         specifier: ^1.8.1
         version: 1.8.1(supports-color@5.5.0)
@@ -1030,6 +1018,9 @@ packages:
     peerDependencies:
       react: '*'
 
+  '@ja-platform/sdk-backend-v4@2.0.0':
+    resolution: {integrity: sha512-PVn6pTKOVAQdxigspwYeKVPEVd351B/bM3MjKXn0bcmIHLgQyOaTQE4eM5hS6IKBWwOd1TBPPRDkIZinFOD0GQ==}
+
   '@jimp/core@1.6.1':
     resolution: {integrity: sha512-+BoKC5G6hkrSy501zcJ2EpfnllP+avPevcBfRcZe/CW+EwEfY6X1EZ8QWyT7NpDIvEEJb1fdJnMMfUnFkxmw9A==}
     engines: {node: '>=18'}
@@ -1142,9 +1133,6 @@ packages:
     resolution: {integrity: sha512-veFPRd93FCnS7AgmCkPgARVGoDRrJ9cm1ujuNyA+UfQ5VKbED2002sm5XfFLFwTsKC8j04heTrwe+tU1dluXOw==}
     engines: {node: '>=18'}
 
-  '@journeyapps-labs/client-backend-v4@1.0.0':
-    resolution: {integrity: sha512-XJ6720PPVJXwZkqVjn6RP2b1wqdU8OVHKVAz5YodMbJlRYrbfvRMGxeZipwRYCW3lKQhF3wLC5kfw2Ywt7QsLA==}
-
   '@journeyapps/common-ioc@1.0.3':
     resolution: {integrity: sha512-XzddTdaer0ErCaEra/9TXJJekpaOmnubhUwc7JOdrQxwq4YCHRV0TqizjqhYT9IaOl9hMDYeANFj3ktrJqsHcg==}
 
@@ -1193,27 +1181,27 @@ packages:
   '@journeyapps/parser-schema@8.2.5':
     resolution: {integrity: sha512-hqrORjvGSC82Xk1s1RtD7D36yPd1pQfSNxbhTnKya5PbhdXu8Vv0+9UmaVDyCQHOoFQXePuCGjOQrxr+yLQaRQ==}
 
-  '@journeyapps/reactor-lib-builder@3.1.3':
-    resolution: {integrity: sha512-8xmhgOaRNkAsnRZJilpzBxkm44cOt3M0ggUSrogoRXf8xiWmRCO1nO1ZBDXrUTEC5h6jdkGa99LxsOYNmR4d7g==}
+  '@journeyapps/reactor-lib-builder@3.1.5':
+    resolution: {integrity: sha512-5jw8RFnnkMHDjK9+je3gGq6DYS6WAZidVC3i5wXpTSZR/JgObO8Jp7myQnxRxzXMUE4l7oJHBc/3quB21h5lIw==}
     hasBin: true
 
-  '@journeyapps/reactor-lib-data-layer@1.0.16':
-    resolution: {integrity: sha512-eZCiJcyxqvWCWK0ZCiTZSgIM5UEaJJFUVgUVdAdfp84dt1TWS8RbBluwGxBSlsd5bo120UOCZfVzkighx13UhQ==}
+  '@journeyapps/reactor-lib-data-layer@1.0.18':
+    resolution: {integrity: sha512-HxmQtIWgbusJ6v1eDMiM7IT15f00QbX7b2NTCLfR8ijaj7BtQuLGJOQvxvs4VeLv7Gl7uehjGitvpQkqxN5YeA==}
 
-  '@journeyapps/reactor-lib-search@1.0.16':
-    resolution: {integrity: sha512-g7pRM+To/YKQgocyqeXKDaggFNd4UNkIAHOVKHuU7j/8w8zKhhXlfwZMstT3S+/cON1ORoQPU6mvX+FyGMFPSg==}
+  '@journeyapps/reactor-lib-search@1.0.18':
+    resolution: {integrity: sha512-+a8nucSTtGj+SK97wVGfupnCkr/uuiPmKr3uUiYumuW4eNOof2RzefFNozgsXnqaSqOedV+jMUY7VSj5vLGwuQ==}
 
-  '@journeyapps/reactor-lib-server@2.1.3':
-    resolution: {integrity: sha512-mfnKHZRbOpsb6ZQ5O/z4hxoQeVIatynvK9dT8wO/1NpBhlZ9YjL1s5SHxSDP54ide/QZ0+JcmaPk3w+LlKBpUg==}
+  '@journeyapps/reactor-lib-server@2.1.5':
+    resolution: {integrity: sha512-apdIFoBk6qR78yxAlML6b+TzXUWFErGCkq2L/CA9RTTw/puA2zdwCrULehlJL7wq5lpc8+b4nduZK8BRX0ZnLg==}
 
-  '@journeyapps/reactor-lib-utils@2.0.15':
-    resolution: {integrity: sha512-xdHFPek71GHVb1ZvAhWHu36CWRJDuJd3B6fpLOrX9T9LzFy2rT/28YChrdPrsGwwagpxoVtColAY9iHAftimYg==}
+  '@journeyapps/reactor-lib-utils@2.0.17':
+    resolution: {integrity: sha512-fsMs5M9yCcGPnQ8AUzwGRS2OIIiAH+7H8BL4sOEQWsTxWzFbCT6N1DPEb9Ws352uzuJr6IG6pBM+EdVxUUfM2Q==}
 
-  '@journeyapps/reactor-mod-editor@2.3.12':
-    resolution: {integrity: sha512-3VT5eW0qRN1kdquZO1J0ubFQaZmfNp4cC9bMff7fiIx6NBSbHdnItcAVXLwubx5I4OJds3e1r4yrrdKBS4lppg==}
+  '@journeyapps/reactor-mod-editor@2.3.14':
+    resolution: {integrity: sha512-1AJUSUT4ELAk3fPUaZO5E8Wx/U78uTTBOqgbjgAmvSzwm7QWVhMuh9elZDNOaQtfglcHB8/Ik+gC4DrqtThMqQ==}
 
-  '@journeyapps/reactor-mod@8.1.4':
-    resolution: {integrity: sha512-VKiruBniyPrqxYGVES8Zr3mWH83rNoPohZ607ii2fJPHVWE6ISxzC5XCnbuIpoulTIJAzySlXai78THUj9Bh/w==}
+  '@journeyapps/reactor-mod@8.1.6':
+    resolution: {integrity: sha512-CN/iBgC/dmA8HlGEglbvlGd4UldNoPyyxDsszQUd1/PGv6oW2p3mY2zW6jnU9hJeCTPXp1XwWKFrQSBbY2tyvA==}
 
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
@@ -2004,8 +1992,8 @@ packages:
     resolution: {integrity: sha512-fkdfq+b+AHI4cKdhZlppHveI/mgz2qpiYxcm+t5E5TsxX7QrLS1VE0+7GENEk9z0EeGPcpSciGv6ez24duWhwQ==}
     engines: {node: '>=18.x'}
 
-  cronstrue@3.24.0:
-    resolution: {integrity: sha512-t/Ji3Ur2c/pzhIAWNwC0ftl3JAE4dLfCjAdZoTZXmPDZwcispnS1PaMcMS4OmIIXyIVouAz+yw+mfQiE3hz5OQ==}
+  cronstrue@3.25.0:
+    resolution: {integrity: sha512-PAPaioNXHMLiUSM8V5sC0bIx5MALUQjjtuDZZWBir5Tau8D676Aoj3Oju/SCaggi4eLG+QPC3IU+dCo30AzDIA==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -2273,22 +2261,6 @@ packages:
   escape-string-regexp@4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
-
-  eslint-scope@5.1.1:
-    resolution: {integrity: sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==}
-    engines: {node: '>=8.0.0'}
-
-  esrecurse@4.3.0:
-    resolution: {integrity: sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==}
-    engines: {node: '>=4.0'}
-
-  estraverse@4.3.0:
-    resolution: {integrity: sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw==}
-    engines: {node: '>=4.0'}
-
-  estraverse@5.3.0:
-    resolution: {integrity: sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==}
-    engines: {node: '>=4.0'}
 
   estree-util-is-identifier-name@3.0.0:
     resolution: {integrity: sha512-hFtqIDZTIUZ9BXLb8y4pYGyk6+wekIivNVTcmvk8NoOh+VeRn5y6cEHzbURrWbfp1fIqdVipilzj+lfaadNZmg==}
@@ -4033,10 +4005,6 @@ packages:
   util@0.12.5:
     resolution: {integrity: sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA==}
 
-  uuid@14.0.1:
-    resolution: {integrity: sha512-6ZxzVpzDXDa3bJWaHilVayA+BH/1zmxCJoVgvmqJnid/gPoKHxUrS/aC/T6LGQtNHT+XHG9fXPJB4d+IrU30Ew==}
-    hasBin: true
-
   uuid@14.0.2:
     resolution: {integrity: sha512-xZe/16rV4aa+HGSOCiY2YeLT1OybRLrrkL/Rqaq7p7GMVXjFh+6wN4oMYgjFmnSnhY8t6Xpdl2l9qmnHYuMHwQ==}
     hasBin: true
@@ -4122,8 +4090,8 @@ packages:
     resolution: {integrity: sha512-jyuiGJdtvY434z5bUZrjz67v76/ePNvFZTp9Mdz29IlH4+GPsgyGjiv0fKI+M7BdkU6ADjulUcKAd3tUK3WlEw==}
     engines: {node: '>=10.13.0'}
 
-  webpack@5.109.2:
-    resolution: {integrity: sha512-U9/cvLzxObKNEZ9+TtdqrHM5/9z3lgl2c+c4BzbqGxFQvQvBAq87yql5A8pQ+rrMbS496MZJeF5enVBndIy2hw==}
+  webpack@5.110.3:
+    resolution: {integrity: sha512-GuizBzRvo9YPpyoNMf3ag7AzxbaW85qrRSqTha345KyJbAFPt3/cMzBM0h+RWg7SK/7DdzRLINP3LvQ0hvr4hg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -5183,6 +5151,15 @@ snapshots:
     dependencies:
       react: 19.2.8
 
+  '@ja-platform/sdk-backend-v4@2.0.0(@types/json-schema@7.0.15)':
+    dependencies:
+      '@journeyapps/common-sdk': 1.1.0(@types/json-schema@7.0.15)
+      '@journeyapps/micro-codecs': 2.0.1
+      bson: 7.3.2
+      ts-codec: 1.3.0
+    transitivePeerDependencies:
+      - '@types/json-schema'
+
   '@jimp/core@1.6.1(supports-color@10.2.2)':
     dependencies:
       '@jimp/file-ops': 1.6.1
@@ -5576,12 +5553,6 @@ snapshots:
       '@jimp/types': 1.6.1
       tinycolor2: 1.6.0
 
-  '@journeyapps-labs/client-backend-v4@1.0.0(@types/json-schema@7.0.15)':
-    dependencies:
-      '@journeyapps-labs/common-sdk': '@journeyapps/common-sdk@1.1.0(@types/json-schema@7.0.15)'
-    transitivePeerDependencies:
-      - '@types/json-schema'
-
   '@journeyapps/common-ioc@1.0.3': {}
 
   '@journeyapps/common-logger@1.1.2': {}
@@ -5684,36 +5655,36 @@ snapshots:
     transitivePeerDependencies:
       - fp-ts
 
-  '@journeyapps/reactor-lib-builder@3.1.3(js-yaml@5.4.1)(json5@2.2.3)(postcss@8.5.28)':
+  '@journeyapps/reactor-lib-builder@3.1.5(js-yaml@5.4.1)(json5@2.2.3)(postcss@8.5.28)':
     dependencies:
       '@babel/core': 8.0.1
       '@babel/preset-env': 8.0.2(@babel/core@8.0.1)
       '@babel/preset-react': 8.0.1(@babel/core@8.0.1)
       '@rbarilani/remove-source-map-url-webpack-plugin': 1.1.0(postcss@8.5.28)(webpack-cli@7.2.3)
       assert: 2.1.0
-      babel-loader: 10.1.1(@babel/core@8.0.1)(webpack@5.109.2)
+      babel-loader: 10.1.1(@babel/core@8.0.1)(webpack@5.110.3)
       browserify-zlib: 0.2.0
       crypto-browserify: 3.12.1
-      css-loader: 7.1.5(webpack@5.109.2)
-      expose-loader: 5.0.1(webpack@5.109.2)
+      css-loader: 7.1.5(webpack@5.110.3)
+      expose-loader: 5.0.1(webpack@5.110.3)
       https-browserify: 1.0.0
       lodash: 4.18.1
-      null-loader: 4.0.1(webpack@5.109.2)
+      null-loader: 4.0.1(webpack@5.110.3)
       os-browserify: 0.3.0
       path-browserify: 1.0.1
       process: 0.11.10
       readable-stream: 4.7.0
       resolve: 1.22.12
-      source-map-loader: 5.0.0(webpack@5.109.2)
+      source-map-loader: 5.0.0(webpack@5.110.3)
       stream-browserify: 3.0.0
       stream-http: 3.2.0
-      style-loader: 4.0.0(webpack@5.109.2)
-      terser-webpack-plugin: 5.6.1(postcss@8.5.28)(webpack@5.109.2)
+      style-loader: 4.0.0(webpack@5.110.3)
+      terser-webpack-plugin: 5.6.1(postcss@8.5.28)(webpack@5.110.3)
       tslib: 2.8.1
       util: 0.12.5
-      val-loader: 6.0.0(webpack@5.109.2)
-      webpack: 5.109.2(postcss@8.5.28)(webpack-cli@7.2.3)
-      webpack-cli: 7.2.3(js-yaml@5.4.1)(json5@2.2.3)(webpack@5.109.2)
+      val-loader: 6.0.0(webpack@5.110.3)
+      webpack: 5.110.3(postcss@8.5.28)(webpack-cli@7.2.3)
+      webpack-cli: 7.2.3(js-yaml@5.4.1)(json5@2.2.3)(webpack@5.110.3)
       yargs: 18.1.0
     transitivePeerDependencies:
       - '@minify-html/node'
@@ -5739,29 +5710,29 @@ snapshots:
       - webpack-bundle-analyzer
       - webpack-dev-server
 
-  '@journeyapps/reactor-lib-data-layer@1.0.16':
+  '@journeyapps/reactor-lib-data-layer@1.0.18':
     dependencies:
-      '@journeyapps-labs/common-logger': '@journeyapps/common-logger@1.1.2'
-      '@journeyapps-labs/common-utils': '@journeyapps/common-utils@1.0.3'
-      '@journeyapps/reactor-lib-search': 1.0.16
-      '@journeyapps/reactor-lib-utils': 2.0.15
+      '@journeyapps/common-logger': 1.1.2
+      '@journeyapps/common-utils': 1.0.3
+      '@journeyapps/reactor-lib-search': 1.0.18
+      '@journeyapps/reactor-lib-utils': 2.0.17
       lodash: 4.18.1
       mobx: 7.0.3
       tslib: 2.8.1
 
-  '@journeyapps/reactor-lib-search@1.0.16':
+  '@journeyapps/reactor-lib-search@1.0.18':
     dependencies:
-      '@journeyapps-labs/common-utils': '@journeyapps/common-utils@1.0.3'
-      '@journeyapps/reactor-lib-utils': 2.0.15
+      '@journeyapps/common-utils': 1.0.3
+      '@journeyapps/reactor-lib-utils': 2.0.17
       fastest-levenshtein: 1.0.16
       lodash: 4.18.1
       mobx: 7.0.3
       tslib: 2.8.1
 
-  '@journeyapps/reactor-lib-server@2.1.3(supports-color@5.5.0)':
+  '@journeyapps/reactor-lib-server@2.1.5(supports-color@5.5.0)':
     dependencies:
-      '@journeyapps-labs/common-logger': '@journeyapps/common-logger@1.1.2'
-      '@journeyapps/reactor-lib-utils': 2.0.15
+      '@journeyapps/common-logger': 1.1.2
+      '@journeyapps/reactor-lib-utils': 2.0.17
       cheerio: 1.2.0
       express: 5.2.1(supports-color@5.5.0)
       lodash: 4.18.1
@@ -5769,9 +5740,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@journeyapps/reactor-lib-utils@2.0.15':
+  '@journeyapps/reactor-lib-utils@2.0.17':
     dependencies:
-      '@journeyapps-labs/common-logger': '@journeyapps/common-logger@1.1.2'
+      '@journeyapps/common-logger': 1.1.2
       async: 3.2.6
       color: 5.0.3
       hex-opacity: 1.0.16
@@ -5784,15 +5755,15 @@ snapshots:
       tslib: 2.8.1
       uuid: 14.0.2
 
-  '@journeyapps/reactor-mod-editor@2.3.12(@babel/runtime@7.29.7)(@emotion/react@11.14.0(@types/react@19.2.18)(react@19.2.8)(supports-color@10.2.2))(@types/react@19.2.18)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@10.2.2)':
+  '@journeyapps/reactor-mod-editor@2.3.14(@babel/runtime@7.29.7)(@emotion/react@11.14.0(@types/react@19.2.18)(react@19.2.8)(supports-color@10.2.2))(@types/react@19.2.18)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@10.2.2)':
     dependencies:
       '@emotion/styled': 11.14.1(@emotion/react@11.14.0(@types/react@19.2.18)(react@19.2.8)(supports-color@10.2.2))(@types/react@19.2.18)(react@19.2.8)(supports-color@10.2.2)
-      '@journeyapps-labs/common-ioc': '@journeyapps/common-ioc@1.0.3'
-      '@journeyapps-labs/common-logger': '@journeyapps/common-logger@1.1.2'
-      '@journeyapps-labs/common-utils': '@journeyapps/common-utils@1.0.3'
-      '@journeyapps/reactor-lib-search': 1.0.16
-      '@journeyapps/reactor-lib-utils': 2.0.15
-      '@journeyapps/reactor-mod': 8.1.4(@babel/runtime@7.29.7)(@types/react@19.2.18)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@10.2.2)
+      '@journeyapps/common-ioc': 1.0.3
+      '@journeyapps/common-logger': 1.1.2
+      '@journeyapps/common-utils': 1.0.3
+      '@journeyapps/reactor-lib-search': 1.0.18
+      '@journeyapps/reactor-lib-utils': 2.0.17
+      '@journeyapps/reactor-mod': 8.1.6(@babel/runtime@7.29.7)(@types/react@19.2.18)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@10.2.2)
       '@projectstorm/react-workspaces-core': 4.3.2(@types/react@19.2.18)(supports-color@10.2.2)
       json5: 2.2.3
       jszip: 3.10.1
@@ -5822,15 +5793,15 @@ snapshots:
       - redux
       - supports-color
 
-  '@journeyapps/reactor-mod-editor@2.3.12(@babel/runtime@7.29.7)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@5.5.0)':
+  '@journeyapps/reactor-mod-editor@2.3.14(@babel/runtime@7.29.7)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@5.5.0)':
     dependencies:
       '@emotion/styled': 11.14.1(@emotion/react@11.14.0(react@19.2.8)(supports-color@5.5.0))(react@19.2.8)(supports-color@5.5.0)
-      '@journeyapps-labs/common-ioc': '@journeyapps/common-ioc@1.0.3'
-      '@journeyapps-labs/common-logger': '@journeyapps/common-logger@1.1.2'
-      '@journeyapps-labs/common-utils': '@journeyapps/common-utils@1.0.3'
-      '@journeyapps/reactor-lib-search': 1.0.16
-      '@journeyapps/reactor-lib-utils': 2.0.15
-      '@journeyapps/reactor-mod': 8.1.4(@babel/runtime@7.29.7)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@5.5.0)
+      '@journeyapps/common-ioc': 1.0.3
+      '@journeyapps/common-logger': 1.1.2
+      '@journeyapps/common-utils': 1.0.3
+      '@journeyapps/reactor-lib-search': 1.0.18
+      '@journeyapps/reactor-lib-utils': 2.0.17
+      '@journeyapps/reactor-mod': 8.1.6(@babel/runtime@7.29.7)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@5.5.0)
       '@projectstorm/react-workspaces-core': 4.3.2(supports-color@5.5.0)
       json5: 2.2.3
       jszip: 3.10.1
@@ -5860,7 +5831,7 @@ snapshots:
       - redux
       - supports-color
 
-  '@journeyapps/reactor-mod@8.1.4(@babel/runtime@7.29.7)(@types/react@19.2.18)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@10.2.2)':
+  '@journeyapps/reactor-mod@8.1.6(@babel/runtime@7.29.7)(@types/react@19.2.18)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@10.2.2)':
     dependencies:
       '@emotion/is-prop-valid': 1.4.0
       '@emotion/react': 11.14.0(@types/react@19.2.18)(react@19.2.8)(supports-color@10.2.2)
@@ -5870,13 +5841,13 @@ snapshots:
       '@fortawesome/fontawesome-svg-core': 7.3.1
       '@fortawesome/free-solid-svg-icons': 7.3.1
       '@fortawesome/react-fontawesome': 3.5.0(@fortawesome/fontawesome-svg-core@7.3.1)(react@19.2.8)
-      '@journeyapps-labs/common-ioc': '@journeyapps/common-ioc@1.0.3'
-      '@journeyapps-labs/common-logger': '@journeyapps/common-logger@1.1.2'
-      '@journeyapps-labs/common-tree': '@journeyapps/common-tree@3.0.2'
-      '@journeyapps-labs/common-utils': '@journeyapps/common-utils@1.0.3'
-      '@journeyapps/reactor-lib-data-layer': 1.0.16
-      '@journeyapps/reactor-lib-search': 1.0.16
-      '@journeyapps/reactor-lib-utils': 2.0.15
+      '@journeyapps/common-ioc': 1.0.3
+      '@journeyapps/common-logger': 1.1.2
+      '@journeyapps/common-tree': 3.0.2
+      '@journeyapps/common-utils': 1.0.3
+      '@journeyapps/reactor-lib-data-layer': 1.0.18
+      '@journeyapps/reactor-lib-search': 1.0.18
+      '@journeyapps/reactor-lib-utils': 2.0.17
       '@projectstorm/react-workspaces-behavior-divider-dropzone': 2.4.15(@emotion/react@11.14.0(@types/react@19.2.18)(react@19.2.8)(supports-color@10.2.2))(@types/react@19.2.18)(supports-color@10.2.2)
       '@projectstorm/react-workspaces-behavior-panel-dropzone': 2.4.2(@emotion/react@11.14.0(@types/react@19.2.18)(react@19.2.8)(supports-color@10.2.2))(@types/react@19.2.18)(supports-color@10.2.2)
       '@projectstorm/react-workspaces-behavior-resize': 2.3.14(@emotion/react@11.14.0(@types/react@19.2.18)(react@19.2.8)(supports-color@10.2.2))(@types/react@19.2.18)(supports-color@10.2.2)
@@ -5889,7 +5860,7 @@ snapshots:
       async: 3.2.6
       color: 5.0.3
       cron: 4.4.0
-      cronstrue: 3.24.0
+      cronstrue: 3.25.0
       emoji-dictionary: 1.0.12
       fastest-levenshtein: 1.0.16
       jimp: 1.6.1(supports-color@10.2.2)
@@ -5918,7 +5889,7 @@ snapshots:
       tslib: 2.8.1
       typeface-fira-sans: 1.1.13
       typeface-source-sans-pro: 1.1.13
-      uuid: 14.0.1
+      uuid: 14.0.2
     transitivePeerDependencies:
       - '@babel/runtime'
       - '@types/react'
@@ -5929,7 +5900,7 @@ snapshots:
       - redux
       - supports-color
 
-  '@journeyapps/reactor-mod@8.1.4(@babel/runtime@7.29.7)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@5.5.0)':
+  '@journeyapps/reactor-mod@8.1.6(@babel/runtime@7.29.7)(core-js-pure@3.50.0)(jquery@4.0.0)(prop-types@15.8.1)(react-is@16.13.1)(redux@5.0.1)(supports-color@5.5.0)':
     dependencies:
       '@emotion/is-prop-valid': 1.4.0
       '@emotion/react': 11.14.0(react@19.2.8)(supports-color@5.5.0)
@@ -5939,13 +5910,13 @@ snapshots:
       '@fortawesome/fontawesome-svg-core': 7.3.1
       '@fortawesome/free-solid-svg-icons': 7.3.1
       '@fortawesome/react-fontawesome': 3.5.0(@fortawesome/fontawesome-svg-core@7.3.1)(react@19.2.8)
-      '@journeyapps-labs/common-ioc': '@journeyapps/common-ioc@1.0.3'
-      '@journeyapps-labs/common-logger': '@journeyapps/common-logger@1.1.2'
-      '@journeyapps-labs/common-tree': '@journeyapps/common-tree@3.0.2'
-      '@journeyapps-labs/common-utils': '@journeyapps/common-utils@1.0.3'
-      '@journeyapps/reactor-lib-data-layer': 1.0.16
-      '@journeyapps/reactor-lib-search': 1.0.16
-      '@journeyapps/reactor-lib-utils': 2.0.15
+      '@journeyapps/common-ioc': 1.0.3
+      '@journeyapps/common-logger': 1.1.2
+      '@journeyapps/common-tree': 3.0.2
+      '@journeyapps/common-utils': 1.0.3
+      '@journeyapps/reactor-lib-data-layer': 1.0.18
+      '@journeyapps/reactor-lib-search': 1.0.18
+      '@journeyapps/reactor-lib-utils': 2.0.17
       '@projectstorm/react-workspaces-behavior-divider-dropzone': 2.4.15(@emotion/react@11.14.0(react@19.2.8)(supports-color@5.5.0))(supports-color@5.5.0)
       '@projectstorm/react-workspaces-behavior-panel-dropzone': 2.4.2(@emotion/react@11.14.0(react@19.2.8)(supports-color@5.5.0))(supports-color@5.5.0)
       '@projectstorm/react-workspaces-behavior-resize': 2.3.14(@emotion/react@11.14.0(react@19.2.8)(supports-color@5.5.0))(supports-color@5.5.0)
@@ -5958,7 +5929,7 @@ snapshots:
       async: 3.2.6
       color: 5.0.3
       cron: 4.4.0
-      cronstrue: 3.24.0
+      cronstrue: 3.25.0
       emoji-dictionary: 1.0.12
       fastest-levenshtein: 1.0.16
       jimp: 1.6.1(supports-color@5.5.0)
@@ -5987,7 +5958,7 @@ snapshots:
       tslib: 2.8.1
       typeface-fira-sans: 1.1.13
       typeface-source-sans-pro: 1.1.13
-      uuid: 14.0.1
+      uuid: 14.0.2
     transitivePeerDependencies:
       - '@babel/runtime'
       - '@types/react'
@@ -6255,7 +6226,7 @@ snapshots:
   '@rbarilani/remove-source-map-url-webpack-plugin@1.1.0(postcss@8.5.28)(webpack-cli@7.2.3)':
     dependencies:
       colors: 1.4.0
-      webpack: 5.109.2(postcss@8.5.28)(webpack-cli@7.2.3)
+      webpack: 5.110.3(postcss@8.5.28)(webpack-cli@7.2.3)
     transitivePeerDependencies:
       - '@minify-html/node'
       - '@napi-rs/image'
@@ -6657,12 +6628,12 @@ snapshots:
 
   await-to-js@3.0.0: {}
 
-  babel-loader@10.1.1(@babel/core@8.0.1)(webpack@5.109.2):
+  babel-loader@10.1.1(@babel/core@8.0.1)(webpack@5.110.3):
     dependencies:
       '@babel/core': 8.0.1
       find-up: 5.0.0
     optionalDependencies:
-      webpack: 5.109.2(postcss@8.5.28)(webpack-cli@7.2.3)
+      webpack: 5.110.3(postcss@8.5.28)(webpack-cli@7.2.3)
 
   babel-plugin-macros@3.1.0:
     dependencies:
@@ -7016,7 +6987,7 @@ snapshots:
       '@types/luxon': 3.7.5
       luxon: 3.7.2
 
-  cronstrue@3.24.0: {}
+  cronstrue@3.25.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -7041,7 +7012,7 @@ snapshots:
       randombytes: 2.1.0
       randomfill: 1.0.4
 
-  css-loader@7.1.5(webpack@5.109.2):
+  css-loader@7.1.5(webpack@5.110.3):
     dependencies:
       icss-utils: 5.1.0(postcss@8.5.28)
       postcss: 8.5.28
@@ -7052,7 +7023,7 @@ snapshots:
       postcss-value-parser: 4.2.0
       semver: 7.8.5
     optionalDependencies:
-      webpack: 5.109.2(postcss@8.5.28)(webpack-cli@7.2.3)
+      webpack: 5.110.3(postcss@8.5.28)(webpack-cli@7.2.3)
 
   css-select@5.2.2:
     dependencies:
@@ -7298,19 +7269,6 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-scope@5.1.1:
-    dependencies:
-      esrecurse: 4.3.0
-      estraverse: 4.3.0
-
-  esrecurse@4.3.0:
-    dependencies:
-      estraverse: 5.3.0
-
-  estraverse@4.3.0: {}
-
-  estraverse@5.3.0: {}
-
   estree-util-is-identifier-name@3.0.0: {}
 
   esutils@2.0.3: {}
@@ -7330,9 +7288,9 @@ snapshots:
 
   exif-parser@0.1.12: {}
 
-  expose-loader@5.0.1(webpack@5.109.2):
+  expose-loader@5.0.1(webpack@5.110.3):
     dependencies:
-      webpack: 5.109.2(postcss@8.5.28)(webpack-cli@7.2.3)
+      webpack: 5.110.3(postcss@8.5.28)(webpack-cli@7.2.3)
 
   express-session@1.19.0(supports-color@5.5.0):
     dependencies:
@@ -7985,7 +7943,7 @@ snapshots:
 
   md5.js@1.3.5:
     dependencies:
-      hash-base: 3.0.5
+      hash-base: 3.1.2
       inherits: 2.0.4
       safe-buffer: 5.2.1
 
@@ -8322,13 +8280,13 @@ snapshots:
     dependencies:
       brace-expansion: 5.0.9
 
-  minimizer-webpack-plugin@5.10.0(postcss@8.5.28)(webpack@5.109.2):
+  minimizer-webpack-plugin@5.10.0(postcss@8.5.28)(webpack@5.110.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       terser: 5.51.2
-      webpack: 5.109.2(postcss@8.5.28)(webpack-cli@7.2.3)
+      webpack: 5.110.3(postcss@8.5.28)(webpack-cli@7.2.3)
     optionalDependencies:
       postcss: 8.5.28
 
@@ -8444,11 +8402,11 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
-  null-loader@4.0.1(webpack@5.109.2):
+  null-loader@4.0.1(webpack@5.110.3):
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.3.0
-      webpack: 5.109.2(postcss@8.5.28)(webpack-cli@7.2.3)
+      webpack: 5.110.3(postcss@8.5.28)(webpack-cli@7.2.3)
 
   object-assign@4.1.1: {}
 
@@ -9106,11 +9064,11 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  source-map-loader@5.0.0(webpack@5.109.2):
+  source-map-loader@5.0.0(webpack@5.110.3):
     dependencies:
       iconv-lite: 0.6.3
       source-map-js: 1.2.1
-      webpack: 5.109.2(postcss@8.5.28)(webpack-cli@7.2.3)
+      webpack: 5.110.3(postcss@8.5.28)(webpack-cli@7.2.3)
 
   source-map-support@0.5.21:
     dependencies:
@@ -9173,9 +9131,9 @@ snapshots:
     dependencies:
       '@tokenizer/token': 0.3.0
 
-  style-loader@4.0.0(webpack@5.109.2):
+  style-loader@4.0.0(webpack@5.110.3):
     dependencies:
-      webpack: 5.109.2(postcss@8.5.28)(webpack-cli@7.2.3)
+      webpack: 5.110.3(postcss@8.5.28)(webpack-cli@7.2.3)
 
   style-to-js@1.1.21:
     dependencies:
@@ -9205,13 +9163,13 @@ snapshots:
 
   tapable@2.3.3: {}
 
-  terser-webpack-plugin@5.6.1(postcss@8.5.28)(webpack@5.109.2):
+  terser-webpack-plugin@5.6.1(postcss@8.5.28)(webpack@5.110.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       terser: 5.51.2
-      webpack: 5.109.2(postcss@8.5.28)(webpack-cli@7.2.3)
+      webpack: 5.110.3(postcss@8.5.28)(webpack-cli@7.2.3)
     optionalDependencies:
       postcss: 8.5.28
 
@@ -9394,15 +9352,13 @@ snapshots:
       is-typed-array: 1.1.15
       which-typed-array: 1.1.22
 
-  uuid@14.0.1: {}
-
   uuid@14.0.2: {}
 
   uuid@9.0.1: {}
 
-  val-loader@6.0.0(webpack@5.109.2):
+  val-loader@6.0.0(webpack@5.110.3):
     dependencies:
-      webpack: 5.109.2(postcss@8.5.28)(webpack-cli@7.2.3)
+      webpack: 5.110.3(postcss@8.5.28)(webpack-cli@7.2.3)
 
   vary@1.1.2: {}
 
@@ -9456,7 +9412,7 @@ snapshots:
 
   webidl-conversions@3.0.1: {}
 
-  webpack-cli@7.2.3(js-yaml@5.4.1)(json5@2.2.3)(webpack@5.109.2):
+  webpack-cli@7.2.3(js-yaml@5.4.1)(json5@2.2.3)(webpack@5.110.3):
     dependencies:
       '@discoveryjs/json-ext': 1.1.0
       commander: 14.0.3
@@ -9465,7 +9421,7 @@ snapshots:
       import-local: 3.2.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.109.2(postcss@8.5.28)(webpack-cli@7.2.3)
+      webpack: 5.110.3(postcss@8.5.28)(webpack-cli@7.2.3)
       webpack-merge: 6.0.1
     optionalDependencies:
       js-yaml: 5.4.1
@@ -9479,7 +9435,7 @@ snapshots:
 
   webpack-sources@3.5.1: {}
 
-  webpack@5.109.2(postcss@8.5.28)(webpack-cli@7.2.3):
+  webpack@5.110.3(postcss@8.5.28)(webpack-cli@7.2.3):
     dependencies:
       '@types/estree': 1.0.9
       '@types/json-schema': 7.0.15
@@ -9491,18 +9447,17 @@ snapshots:
       chrome-trace-event: 1.0.4
       enhanced-resolve: 5.24.5
       es-module-lexer: 2.3.2
-      eslint-scope: 5.1.1
       events: 3.3.0
       graceful-fs: 4.2.11
       mime-db: 1.54.0
-      minimizer-webpack-plugin: 5.10.0(postcss@8.5.28)(webpack@5.109.2)
+      minimizer-webpack-plugin: 5.10.0(postcss@8.5.28)(webpack@5.110.3)
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.3
       watchpack: 2.5.2
       webpack-sources: 3.5.1
     optionalDependencies:
-      webpack-cli: 7.2.3(js-yaml@5.4.1)(json5@2.2.3)(webpack@5.109.2)
+      webpack-cli: 7.2.3(js-yaml@5.4.1)(json5@2.2.3)(webpack@5.110.3)
     transitivePeerDependencies:
       - '@minify-html/node'
       - '@napi-rs/image'

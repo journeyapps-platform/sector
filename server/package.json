@@ -8,9 +8,9 @@
   "dependencies": {
     "@ja-platform/reactor-mod-data-browser": "workspace:^",
     "@ja-platform/reactor-mod-sector": "workspace:^",
-    "@journeyapps/reactor-lib-server": "2.1.3",
-    "@journeyapps/reactor-mod": "8.1.4",
-    "@journeyapps/reactor-mod-editor": "2.3.12",
+    "@journeyapps/reactor-lib-server": "2.1.5",
+    "@journeyapps/reactor-mod": "8.1.6",
+    "@journeyapps/reactor-mod-editor": "2.3.14",
     "compression": "^1.8.1",
     "express": "^5.2.1",
     "express-session": "^1.19.0",

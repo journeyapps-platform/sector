@@ -33,19 +33,5 @@ minimumReleaseAgeExclude:
   - '@typescript/typescript-win32-arm64@7.0.2'
   - '@typescript/typescript-win32-x64@7.0.2'
   - typescript@7.0.2
+  - cronstrue@3.25.0
 
-overrides:
-  # Keep legacy dependencies in published modules on the migrated packages.
-  '@journeyapps-labs/reactor-mod': npm:@journeyapps/reactor-mod@8.1.4
-  '@journeyapps-labs/reactor-mod-editor': npm:@journeyapps/reactor-mod-editor@2.3.12
-  '@journeyapps-labs/lib-reactor-builder': npm:@journeyapps/reactor-lib-builder@3.1.3
-  '@journeyapps-labs/lib-reactor-data-layer': npm:@journeyapps/reactor-lib-data-layer@1.0.16
-  '@journeyapps-labs/lib-reactor-search': npm:@journeyapps/reactor-lib-search@1.0.16
-  '@journeyapps-labs/lib-reactor-server': npm:@journeyapps/reactor-lib-server@2.1.3
-  '@journeyapps-labs/lib-reactor-utils': npm:@journeyapps/reactor-lib-utils@2.0.15
-  '@journeyapps-labs/common-ioc': npm:@journeyapps/common-ioc@1.0.3
-  '@journeyapps-labs/common-logger': npm:@journeyapps/common-logger@1.1.2
-  '@journeyapps-labs/common-sdk': npm:@journeyapps/common-sdk@1.1.0
-  '@journeyapps-labs/common-tree': npm:@journeyapps/common-tree@3.0.2
-  '@journeyapps-labs/common-utils': npm:@journeyapps/common-utils@1.0.3
-  '@journeyapps-platform/sdk-common': npm:@journeyapps/common-sdk@1.1.0

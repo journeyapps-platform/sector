@@ -8,7 +8,7 @@ import { Collection, LifecycleCollection } from '@journeyapps/reactor-lib-data-l
 import { when } from 'mobx';
 import { computed, observable } from 'mobx';
 import { EntityDescription } from '@journeyapps/reactor-mod';
-import { V4BackendClient, V4Index, V4Indexes } from '@journeyapps-labs/client-backend-v4';
+import { V4BackendClient, V4Index, V4Indexes } from '@ja-platform/sdk-backend-v4';
 import { SchemaModelObject } from './SchemaModelObject';
 import { getDefaultConnectionColor } from './connection-colors';
 import { SchemaModelOrderValue, SchemaModelOrderingPreference } from '../preferences/SchemaOrderingPreferences';

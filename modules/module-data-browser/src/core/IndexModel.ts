@@ -1,5 +1,5 @@
 import { SchemaModelDefinition } from './SchemaModelDefinition';
-import { V4Index } from '@journeyapps-labs/client-backend-v4';
+import { V4Index } from '@ja-platform/sdk-backend-v4';
 
 export interface IndexModelOptions {
   definition: SchemaModelDefinition;

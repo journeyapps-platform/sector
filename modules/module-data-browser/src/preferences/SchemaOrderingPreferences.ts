@@ -1,4 +1,4 @@
-import { ioc, PrefsStore, SetSetting } from '@journeyapps-labs/reactor-mod';
+import { ioc, PrefsStore, SetSetting } from '@journeyapps/reactor-mod';
 
 export enum SchemaModelOrderValue {
   ALPHABETICAL = 'alphabetical',

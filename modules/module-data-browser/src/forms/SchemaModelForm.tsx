@@ -1,4 +1,4 @@
-import { EntityInput, FormInput, FormModel, inject } from '@journeyapps-labs/reactor-mod';
+import { EntityInput, FormInput, FormModel, inject } from '@journeyapps/reactor-mod';
 import { SchemaModelDefinition } from '../core/SchemaModelDefinition';
 import { SchemaModelObject } from '../core/SchemaModelObject';
 import * as _ from 'lodash';

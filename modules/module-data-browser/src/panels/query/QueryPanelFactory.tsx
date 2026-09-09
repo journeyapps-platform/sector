@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { inject, ioc, ReactorPanelModel } from '@journeyapps-labs/reactor-mod';
+import { inject, ioc, ReactorPanelModel } from '@journeyapps/reactor-mod';
 import { QueryPanelWidget } from './QueryPanelWidget';
 import { AbstractQuery } from '../../core/query/AbstractQuery';
 import { ConnectionStore } from '../../stores/ConnectionStore';

@@ -3,7 +3,7 @@ import {
   EntityDescriberComponent,
   inject,
   SimpleEntitySearchEngineComponent
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { DataBrowserEntities } from '../entities';
 import { ConnectionStore } from '../stores/ConnectionStore';
 import { AbstractConnectionFactory } from '../core/AbstractConnectionFactory';

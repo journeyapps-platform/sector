@@ -1,5 +1,5 @@
-import { EmptyReactorPanelModel, ioc, System, WorkspaceModel, WorkspaceStore } from '@journeyapps-labs/reactor-mod';
-import { DataBrowserEntities } from '@journeyapps-labs/reactor-mod-data-browser';
+import { EmptyReactorPanelModel, ioc, System, WorkspaceModel, WorkspaceStore } from '@journeyapps/reactor-mod';
+import { DataBrowserEntities } from '@ja-platform/reactor-mod-data-browser';
 
 export const setupWorkspaces = () => {
   const workspaceStore = ioc.get(WorkspaceStore);

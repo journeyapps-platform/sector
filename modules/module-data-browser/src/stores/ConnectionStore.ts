@@ -1,4 +1,4 @@
-import { AbstractPersistedStore, LocalStorageSerializer } from '@journeyapps-labs/reactor-mod';
+import { AbstractPersistedStore, LocalStorageSerializer } from '@journeyapps/reactor-mod';
 import { AbstractConnection, AbstractConnectionSerialized } from '../core/AbstractConnection';
 import { computed, observable, runInAction, when } from 'mobx';
 import { AbstractConnectionFactory } from '../core/AbstractConnectionFactory';

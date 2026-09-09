@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { styled } from '@journeyapps-labs/reactor-mod';
+import { styled } from '@journeyapps/reactor-mod';
 import * as _ from 'lodash';
 import { EmptyValueWidget } from '../../../widgets/EmptyValueWidget';
 

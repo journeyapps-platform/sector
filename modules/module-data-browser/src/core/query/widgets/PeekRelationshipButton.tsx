@@ -11,8 +11,8 @@ import {
   TableButtonWidget,
   themed,
   ioc
-} from '@journeyapps-labs/reactor-mod';
-import { copyTextToClipboard } from '@journeyapps-labs/lib-reactor-utils';
+} from '@journeyapps/reactor-mod';
+import { copyTextToClipboard } from '@journeyapps/reactor-lib-utils';
 import { SchemaModelObject } from '../../SchemaModelObject';
 import { TypeEngine } from '../../../forms/TypeEngine';
 import { QueryControlPreferences } from '../../../preferences/QueryControlPreferences';

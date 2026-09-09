@@ -11,7 +11,7 @@ import {
   SimpleEntitySearchEngineComponent,
   TreeBadgeWidget,
   ThemeStore
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import * as React from 'react';
 import { DataBrowserEntities } from '../entities';
 import { ConnectionStore } from '../stores/ConnectionStore';

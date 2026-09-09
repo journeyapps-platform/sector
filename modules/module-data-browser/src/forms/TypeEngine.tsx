@@ -1,5 +1,5 @@
 import { Type } from '@journeyapps/db';
-import { AbstractMedia, inject, MediaEngine, WorkspaceStore } from '@journeyapps-labs/reactor-mod';
+import { AbstractMedia, inject, MediaEngine, WorkspaceStore } from '@journeyapps/reactor-mod';
 import { displayArray } from './types/shared/ui';
 import { TypeHandler } from './types/shared/type-handler';
 import { dateHandler } from './types/date-handler';

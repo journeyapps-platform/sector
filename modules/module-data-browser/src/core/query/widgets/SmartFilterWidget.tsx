@@ -8,7 +8,7 @@ import {
   setupTooltipProps,
   styled,
   TooltipPosition
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { TypeEngine } from '../../../forms/TypeEngine';
 import { SimpleFilter, StatementMatch } from '../filters';
 

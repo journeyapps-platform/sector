@@ -7,7 +7,7 @@ import {
   NumberInput,
   PanelButtonMode,
   PanelButtonWidget
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import * as React from 'react';
 import { Location } from '@journeyapps/db';
 import styled from '@emotion/styled';

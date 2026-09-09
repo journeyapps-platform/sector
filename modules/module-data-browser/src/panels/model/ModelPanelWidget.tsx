@@ -13,7 +13,7 @@ import {
   ScrollableDivCss,
   theme,
   ThemeStore
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { SchemaModelForm } from '../../forms/SchemaModelForm';
 import { ModelPanelModel } from './ModelPanelFactory';
 import { DeleteSchemaModelAction } from '../../actions/schema-model/DeleteSchemaModelAction';

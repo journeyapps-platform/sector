@@ -1,4 +1,4 @@
-# @journeyapps-labs/reactor-mod-data-browser
+# @ja-platform/reactor-mod-data-browser
 
 ## 3.6.5
 

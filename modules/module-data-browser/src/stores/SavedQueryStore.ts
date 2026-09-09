@@ -1,4 +1,4 @@
-import { AbstractPersistedStore, inject, LocalStorageSerializer } from '@journeyapps-labs/reactor-mod';
+import { AbstractPersistedStore, inject, LocalStorageSerializer } from '@journeyapps/reactor-mod';
 import { action, computed, observable } from 'mobx';
 import { v4 } from 'uuid';
 import { SimpleQuery, SimpleQueryEncoded } from '../core/query/query-simple/SimpleQuery';

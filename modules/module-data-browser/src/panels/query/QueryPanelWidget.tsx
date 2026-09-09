@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { QueryPanelModel } from './QueryPanelFactory';
 import { observer } from 'mobx-react';
 import styled from '@emotion/styled';
-import { BorderLayoutWidget, LoadingPanelWidget } from '@journeyapps-labs/reactor-mod';
+import { BorderLayoutWidget, LoadingPanelWidget } from '@journeyapps/reactor-mod';
 import { Page } from '../../core/query/Page';
 import { PageResultsWidget } from './PageResultsWidget';
 import { TableControlsWidget } from './TableControlsWidget';

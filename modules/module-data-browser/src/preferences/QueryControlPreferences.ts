@@ -1,4 +1,4 @@
-import { BooleanSetting, PrefsStore, SetSetting, ioc } from '@journeyapps-labs/reactor-mod';
+import { BooleanSetting, PrefsStore, SetSetting, ioc } from '@journeyapps/reactor-mod';
 
 export enum QueryControlPreferences {
   SHOW_SORT_CONTROLS = 'databrowser/query-controls/show-sort-controls',

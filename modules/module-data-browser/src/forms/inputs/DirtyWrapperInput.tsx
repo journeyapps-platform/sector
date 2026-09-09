@@ -1,4 +1,4 @@
-import { FormInput, FormInputRenderOptions, styled } from '@journeyapps-labs/reactor-mod';
+import { FormInput, FormInputRenderOptions, styled } from '@journeyapps/reactor-mod';
 import * as React from 'react';
 import { SchemaModelObject } from '../../core/SchemaModelObject';
 import { computed } from 'mobx';

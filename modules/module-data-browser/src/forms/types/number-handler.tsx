@@ -1,5 +1,5 @@
 import { IntegerType, NumberType, Variable } from '@journeyapps/db';
-import { DialogStore2, FormInput, NumberInput, ioc } from '@journeyapps-labs/reactor-mod';
+import { DialogStore2, FormInput, NumberInput, ioc } from '@journeyapps/reactor-mod';
 import { TypeHandler } from './shared/type-handler';
 import { Condition, SimpleFilter, Statement, StatementMatch } from '../../core/query/filters';
 import {

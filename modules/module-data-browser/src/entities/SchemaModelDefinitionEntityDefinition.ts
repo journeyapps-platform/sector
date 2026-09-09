@@ -6,7 +6,7 @@ import {
   InlineEntityEncoderComponent,
   inject,
   SimpleParentEntitySearchEngine
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { DataBrowserEntities } from '../entities';
 import { ConnectionStore } from '../stores/ConnectionStore';
 import { AbstractConnection } from '../core/AbstractConnection';

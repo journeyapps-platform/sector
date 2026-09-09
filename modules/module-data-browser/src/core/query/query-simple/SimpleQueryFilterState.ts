@@ -1,6 +1,6 @@
 import { Variable } from '@journeyapps/db';
 import * as _ from 'lodash';
-import { BaseObserver } from '@journeyapps-labs/common-utils';
+import { BaseObserver } from '@journeyapps/common-utils';
 import { FilterableField, SchemaModelDefinition } from '../../SchemaModelDefinition';
 import { SerializedSimpleFilter, SimpleFilter } from '../filters';
 import { TypeEngine } from '../../../forms/TypeEngine';

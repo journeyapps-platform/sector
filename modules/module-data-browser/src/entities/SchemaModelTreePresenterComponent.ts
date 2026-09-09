@@ -3,7 +3,7 @@ import {
   EntityReactorNode,
   EntityTreePresenterComponent,
   ReactorTreeEntity
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { SchemaModelDefinition } from '../core/SchemaModelDefinition';
 import { SchemaModelOrderValue, SchemaModelOrderingPreference } from '../preferences/SchemaOrderingPreferences';
 

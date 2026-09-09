@@ -6,7 +6,7 @@ import {
   SimpleComboBoxDirective,
   inject,
   ioc
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { AbstractConnection } from '../../core/AbstractConnection';
 import { DataBrowserEntities } from '../../entities';
 import { getConnectionColorComboBoxItems } from '../../core/connection-colors';

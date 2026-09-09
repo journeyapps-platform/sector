@@ -2,10 +2,10 @@ import * as React from 'react';
 import { JSX, useEffect, useState } from 'react';
 import { observer } from 'mobx-react';
 import styled from '@emotion/styled';
-import { BorderLayoutWidget, LoadingPanelWidget, PanelToolbarWidget } from '@journeyapps-labs/reactor-mod';
-import { copyTextToClipboard, saveFile } from '@journeyapps-labs/lib-reactor-utils';
+import { BorderLayoutWidget, LoadingPanelWidget, PanelToolbarWidget } from '@journeyapps/reactor-mod';
+import { copyTextToClipboard, saveFile } from '@journeyapps/reactor-lib-utils';
 import { ModelJsonPanelModel } from './ModelJsonPanelFactory';
-import { SimpleEditorWidget } from '@journeyapps-labs/reactor-mod-editor';
+import { SimpleEditorWidget } from '@journeyapps/reactor-mod-editor';
 
 export interface QueryPanelWidgetProps {
   model: ModelJsonPanelModel;

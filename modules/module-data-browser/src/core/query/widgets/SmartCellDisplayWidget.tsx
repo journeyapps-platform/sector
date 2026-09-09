@@ -2,7 +2,7 @@ import * as React from 'react';
 import { observer } from 'mobx-react';
 import { PageRow } from '../Page';
 import { CellDisplayWidget } from './CellDisplayWidget';
-import { styled } from '@journeyapps-labs/reactor-mod';
+import { styled } from '@journeyapps/reactor-mod';
 
 export interface SmartCellDisplayWidgetProps {
   row: PageRow;

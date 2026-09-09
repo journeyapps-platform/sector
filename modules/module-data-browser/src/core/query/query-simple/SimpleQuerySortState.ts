@@ -1,6 +1,6 @@
 import { observable } from 'mobx';
 import * as _ from 'lodash';
-import { BaseObserver } from '@journeyapps-labs/common-utils';
+import { BaseObserver } from '@journeyapps/common-utils';
 import { SchemaModelDefinition } from '../../SchemaModelDefinition';
 import { SerializedSimpleQuerySort, SimpleQuerySort, SortDirection } from './SimpleQueryTypes';
 import { STANDARD_MODEL_FIELD_LABELS, StandardModelFields } from '../StandardModelFields';

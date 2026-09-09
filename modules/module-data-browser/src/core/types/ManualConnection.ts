@@ -1,9 +1,10 @@
+import { ObjectId } from 'bson';
 import { ApiCredentialOptions, Database } from '@journeyapps/db';
 import { AbstractConnection } from '../AbstractConnection';
 import { ManualConnectionFactory } from './ManualConnectionFactory';
-import { EntityDescription } from '@journeyapps-labs/reactor-mod';
-import { createWebNetworkClient } from '@journeyapps-labs/common-sdk';
-import { V4BackendClient } from '@journeyapps-labs/client-backend-v4';
+import { EntityDescription } from '@journeyapps/reactor-mod';
+import { createWebNetworkClient } from '@journeyapps/common-sdk';
+import { V4BackendClient } from '@ja-platform/sdk-backend-v4';
 import * as path from 'path';
 
 export interface ManualConnectionDetails extends ApiCredentialOptions {
@@ -43,7 +44,7 @@ export class ManualConnection extends AbstractConnection {
   getBackendClient(): V4BackendClient {
     let url = new URL(this.options.baseUrl);
     return new V4BackendClient({
-      account_id: path.basename(url.pathname),
+      account_id: new ObjectId(path.basename(url.pathname)),
       endpoint: `${url.origin}`,
       client: createWebNetworkClient({
         headers: {

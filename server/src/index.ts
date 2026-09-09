@@ -6,13 +6,13 @@ import {
   createModuleLoaderContentTransformer,
   loadModules,
   serveModules
-} from '@journeyapps-labs/lib-reactor-server';
+} from '@journeyapps/reactor-lib-server';
 import { join } from 'path';
 
 const app = express();
 const server = http.createServer(app);
 
-let path = require.resolve('@journeyapps-labs/lib-reactor-server');
+let path = require.resolve('@journeyapps/reactor-lib-server');
 
 const modules = loadModules({
   env: {

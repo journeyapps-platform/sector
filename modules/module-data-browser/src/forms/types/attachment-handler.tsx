@@ -1,5 +1,5 @@
 import { Attachment, AttachmentType } from '@journeyapps/db';
-import { FileInput, TableButtonWidget } from '@journeyapps-labs/reactor-mod';
+import { FileInput, TableButtonWidget } from '@journeyapps/reactor-mod';
 import * as React from 'react';
 import { TypeHandler } from './shared/type-handler';
 

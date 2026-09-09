@@ -6,7 +6,7 @@ import {
   PanelButtonWidget,
   theme,
   ThemeStore
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 
 export interface SelectionControlsWidgetProps {
   selectedCount: number;

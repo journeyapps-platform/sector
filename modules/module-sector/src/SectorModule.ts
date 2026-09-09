@@ -3,11 +3,11 @@ import {
   ReactorModuleInitEvent,
   ReactorModuleRegisterEvent,
   UXStore
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { SectorBodyWidget } from './widgets/SectorBodyWidget';
 import { setupWorkspaces } from './setupWorkspaces';
 
-const icon = require('../media/logo.png');
+import icon from '../media/logo.png';
 
 export class SectorModule extends AbstractReactorModule {
   constructor() {

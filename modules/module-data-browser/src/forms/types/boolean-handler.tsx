@@ -1,5 +1,5 @@
 import { BooleanType, Variable } from '@journeyapps/db';
-import { BooleanInput, CheckboxWidget, DialogStore2, FormModel, ioc } from '@journeyapps-labs/reactor-mod';
+import { BooleanInput, CheckboxWidget, DialogStore2, FormModel, ioc } from '@journeyapps/reactor-mod';
 import * as React from 'react';
 import { TypeHandler } from './shared/type-handler';
 import { ClearableFilterFormDialogDirective } from './filters/ClearableFilterFormDialogDirective';

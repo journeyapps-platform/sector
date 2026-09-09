@@ -10,7 +10,7 @@ import {
   MultiSelectChangeEvent,
   MultiSelectTableWidget,
   LoadingPanelWidget
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { AbstractQuery } from '../../core/query/AbstractQuery';
 import { observer } from 'mobx-react';
 import { DataBrowserEntities } from '../../entities';

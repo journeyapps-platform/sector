@@ -6,7 +6,7 @@ import {
   PanelButtonWidget,
   PanelDropdownWidget,
   styled
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import * as _ from 'lodash';
 import { AbstractQuery } from '../../../core/query/AbstractQuery';
 import { Page } from '../../../core/query/Page';

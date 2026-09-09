@@ -1,12 +1,14 @@
 packages:
-  - './server'
-  - './modules/*'
+  - 'server'
+  - 'modules/*'
 shamefullyHoist: true
 allowBuilds:
   core-js-pure: true
   esbuild: true
 
 minimumReleaseAgeExclude:
+  - '@ja-platform/*'
+  - '@journeyapps/*'
   - '@journeyapps-labs/*'
   - '@journeyapps-platform/*'
   - '@fortawesome/react-fontawesome@3.4.0'
@@ -31,3 +33,5 @@ minimumReleaseAgeExclude:
   - '@typescript/typescript-win32-arm64@7.0.2'
   - '@typescript/typescript-win32-x64@7.0.2'
   - typescript@7.0.2
+  - cronstrue@3.25.0
+

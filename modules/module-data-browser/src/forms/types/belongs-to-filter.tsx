@@ -1,5 +1,5 @@
 import { Variable } from '@journeyapps/db';
-import { ArrayInput, DialogStore2, EntityInput, FormModel, ioc } from '@journeyapps-labs/reactor-mod';
+import { ArrayInput, DialogStore2, EntityInput, FormModel, ioc } from '@journeyapps/reactor-mod';
 import { Relationship } from '@journeyapps/parser-schema';
 import { SchemaModelDefinition } from '../../core/SchemaModelDefinition';
 import { SchemaModelObject } from '../../core/SchemaModelObject';

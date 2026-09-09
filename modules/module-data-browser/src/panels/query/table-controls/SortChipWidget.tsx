@@ -9,8 +9,8 @@ import {
   styled,
   useDraggableRaw,
   useDroppableRaw
-} from '@journeyapps-labs/reactor-mod';
-import { getTransparentColor } from '@journeyapps-labs/lib-reactor-utils';
+} from '@journeyapps/reactor-mod';
+import { getTransparentColor } from '@journeyapps/reactor-lib-utils';
 import { SimpleQuerySort, SortDirection } from '../../../core/query/query-simple/SimpleQuery';
 
 const SORT_DRAG_MIME = 'application/reactor-sort-field';

@@ -1,6 +1,6 @@
 import { AbstractConnection } from '../../core/AbstractConnection';
 import { observable } from 'mobx';
-import { ReactorPanelFactory, ReactorPanelModel, TabWidget } from '@journeyapps-labs/reactor-mod';
+import { ReactorPanelFactory, ReactorPanelModel, TabWidget } from '@journeyapps/reactor-mod';
 import { TabRendererEvent } from '@projectstorm/react-workspaces-model-tabs';
 import React from 'react';
 

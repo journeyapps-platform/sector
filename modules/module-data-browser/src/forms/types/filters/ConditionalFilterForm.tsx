@@ -1,4 +1,4 @@
-import { ArrayInput, FormInput, FormModel, GroupInput, SelectInput } from '@journeyapps-labs/reactor-mod';
+import { ArrayInput, FormInput, FormModel, GroupInput, SelectInput } from '@journeyapps/reactor-mod';
 import { Condition, StatementMatch } from '../../../core/query/filters';
 
 export interface ConditionalStatementValue<T = any> {

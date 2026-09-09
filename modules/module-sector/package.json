@@ -1,5 +1,5 @@
 {
-  "name": "@journeyapps-labs/reactor-mod-sector",
+  "name": "@ja-platform/reactor-mod-sector",
   "main": "./dist/index.js",
   "typings": "./dist/@types/index",
   "private": true,
@@ -12,15 +12,15 @@
   },
   "dependencies": {
     "@emotion/styled": "^11.14.1",
-    "@journeyapps-labs/common-ioc": "^1.0.2",
-    "@journeyapps-labs/common-utils": "^1.0.2",
-    "@journeyapps-labs/reactor-mod": "8.1.2",
-    "@journeyapps-labs/reactor-mod-data-browser": "workspace:^",
-    "mobx": "^7.0.0",
+    "@journeyapps/common-ioc": "^1.0.3",
+    "@journeyapps/common-utils": "^1.0.3",
+    "@journeyapps/reactor-mod": "8.1.6",
+    "@ja-platform/reactor-mod-data-browser": "workspace:^",
+    "mobx": "^7.0.3",
     "react": "19.2.8",
-    "uuid": "^14.0.1"
+    "uuid": "^14.0.2"
   },
   "devDependencies": {
-    "@journeyapps-labs/lib-reactor-builder": "3.1.1"
+    "@journeyapps/reactor-lib-builder": "3.1.5"
   }
 }

@@ -1,5 +1,5 @@
 import { SchemaModelObject } from '../SchemaModelObject';
-import { TableRow } from '@journeyapps-labs/reactor-mod';
+import { TableRow } from '@journeyapps/reactor-mod';
 import { observable } from 'mobx';
 import { SchemaModelDefinition } from '../SchemaModelDefinition';
 

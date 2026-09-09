@@ -1,11 +1,4 @@
-import {
-  ActionStore,
-  EntityAction,
-  EntityActionEvent,
-  inject,
-  ioc,
-  WorkspaceStore
-} from '@journeyapps-labs/reactor-mod';
+import { ActionStore, EntityAction, EntityActionEvent, inject, ioc, WorkspaceStore } from '@journeyapps/reactor-mod';
 import { DataBrowserEntities } from '../../entities';
 import { SchemaModelObject } from '../../core/SchemaModelObject';
 import { ModelPanelModel } from '../../panels/model/ModelPanelFactory';

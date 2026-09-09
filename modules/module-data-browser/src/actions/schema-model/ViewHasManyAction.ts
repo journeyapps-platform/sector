@@ -10,7 +10,7 @@ import {
   WorkspaceStore,
   inject,
   ioc
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import { Relationship } from '@journeyapps/parser-schema';
 import { DataBrowserEntities } from '../../entities';
 import { SchemaModelObject } from '../../core/SchemaModelObject';

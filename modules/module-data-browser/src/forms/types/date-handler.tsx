@@ -6,7 +6,7 @@ import {
   FormInput,
   SmartDateDisplayWidget,
   ioc
-} from '@journeyapps-labs/reactor-mod';
+} from '@journeyapps/reactor-mod';
 import * as React from 'react';
 import { TypeHandler } from './shared/type-handler';
 import { Condition, SimpleFilter, Statement, StatementMatch } from '../../core/query/filters';

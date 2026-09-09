@@ -1,5 +1,11 @@
 # @ja-platform/reactor-mod-data-browser
 
+## 3.6.6
+
+### Patch Changes
+
+- 4b5fa1d: Publish the data browser as `@ja-platform/reactor-mod-data-browser` on npm.
+
 ## 3.6.5
 
 ### Patch Changes

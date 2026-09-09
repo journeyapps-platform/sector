@@ -1,6 +1,6 @@
 {
   "name": "@ja-platform/reactor-mod-data-browser",
-  "version": "3.6.4",
+  "version": "3.6.5",
   "main": "./dist/index.js",
   "typings": "./dist/@types/index",
   "publishConfig": {

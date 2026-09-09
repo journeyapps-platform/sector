@@ -1,4 +1,10 @@
-# @journeyapps-labs/reactor-mod-data-browser
+# @ja-platform/reactor-mod-data-browser
+
+## 3.6.5
+
+### Patch Changes
+
+- 4b5fa1d: Include the compiled Reactor module bundle in the published package.
 
 ## 3.6.4
 

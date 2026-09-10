@@ -11,7 +11,7 @@
     "bump:reactor:dev": "./scripts/bump-reactor-dev.sh",
     "clean": "pnpm run -r clean && tsc --build --clean",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx}\"",
-    "ncu": "ncu -u && pnpm recursive exec -- ncu -u",
+    "ncu": "ncu -u && pnpm -r exec ncu -u",
     "preinstall": "npx only-allow pnpm",
     "release": "pnpm build:prod && pnpm changeset publish",
     "watch": "concurrently 'pnpm watch:ts' 'pnpm watch:modules'",

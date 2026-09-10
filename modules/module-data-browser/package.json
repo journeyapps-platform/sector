@@ -3,6 +3,12 @@
   "version": "3.6.5",
   "main": "./dist/index.js",
   "typings": "./dist/@types/index",
+  "files": [
+    "dist",
+    "!dist/tsconfig.tsbuildinfo",
+    "dist-module",
+    "reactor.config.json"
+  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
@@ -26,8 +32,8 @@
     "@journeyapps/common-utils": "^1.0.3",
     "@journeyapps/reactor-lib-data-layer": "1.0.18",
     "@journeyapps/reactor-lib-utils": "2.0.17",
-    "@journeyapps/reactor-mod": "8.1.6",
-    "@journeyapps/reactor-mod-editor": "2.3.14",
+    "@journeyapps/reactor-mod": "8.1.7",
+    "@journeyapps/reactor-mod-editor": "2.3.15",
     "@journeyapps/db": "^8.1.1",
     "@journeyapps/parser-schema": "^8.2.5",
     "@projectstorm/react-workspaces-core": "4.3.2",
@@ -36,7 +42,7 @@
     "lodash": "^4.18.1",
     "mobx": "^7.0.3",
     "mobx-react": "^10.0.2",
-    "react": "19.2.8",
+    "react": "19.3.0",
     "tslib": "^2.8.1",
     "uuid": "^14.0.2",
     "@ja-platform/sdk-backend-v4": "2.0.0",
@@ -44,8 +50,8 @@
   },
   "devDependencies": {
     "@journeyapps/reactor-lib-builder": "3.1.5",
-    "@types/async": "^3.2.25",
+    "@types/async": "^3.2.26",
     "@types/lodash": "^4.17.25",
-    "@types/react": "^19.2.18"
+    "@types/react": "^19.3.0"
   }
 }

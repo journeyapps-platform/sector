@@ -34,4 +34,7 @@ minimumReleaseAgeExclude:
   - '@typescript/typescript-win32-x64@7.0.2'
   - typescript@7.0.2
   - cronstrue@3.25.0
+  - '@types/async@3.2.26'
+  - '@types/react@19.3.0'
+  - react@19.3.0
 

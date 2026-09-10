@@ -1,5 +1,0 @@
-*
-!dist/**/*
-!dist-module/**/*
-!package.json
-!reactor.config.json

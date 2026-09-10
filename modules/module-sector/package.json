@@ -14,7 +14,7 @@
     "@emotion/styled": "^11.14.1",
     "@journeyapps/common-ioc": "^1.0.3",
     "@journeyapps/common-utils": "^1.0.3",
-    "@journeyapps/reactor-mod": "8.1.7",
+    "@journeyapps/reactor-mod": "8.2.0",
     "@ja-platform/reactor-mod-data-browser": "workspace:^",
     "mobx": "^7.0.3",
     "react": "19.3.0",

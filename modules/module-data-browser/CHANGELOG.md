@@ -1,5 +1,11 @@
 # @ja-platform/reactor-mod-data-browser
 
+## 3.6.7
+
+### Patch Changes
+
+- 428d2f7: dependency changes
+
 ## 3.6.6
 
 ### Patch Changes

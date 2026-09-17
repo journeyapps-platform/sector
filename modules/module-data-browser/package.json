@@ -30,8 +30,8 @@
     "@journeyapps/common-ioc": "^1.0.3",
     "@journeyapps/common-sdk": "^1.1.0",
     "@journeyapps/common-utils": "^1.0.3",
-    "@journeyapps/reactor-lib-data-layer": "1.0.18",
-    "@journeyapps/reactor-lib-utils": "2.0.17",
+    "@journeyapps/reactor-lib-data-layer": "1.0.19",
+    "@journeyapps/reactor-lib-utils": "2.0.18",
     "@journeyapps/reactor-mod": "8.2.0",
     "@journeyapps/reactor-mod-editor": "2.3.16",
     "@journeyapps/db": "^8.1.1",
@@ -46,10 +46,10 @@
     "tslib": "^2.8.1",
     "uuid": "^14.0.2",
     "@ja-platform/sdk-backend-v4": "2.0.0",
-    "bson": "7.3.2"
+    "bson": "7.3.3"
   },
   "devDependencies": {
-    "@journeyapps/reactor-lib-builder": "3.1.5",
+    "@journeyapps/reactor-lib-builder": "3.1.6",
     "@types/async": "^3.2.26",
     "@types/lodash": "^4.17.25",
     "@types/react": "^19.3.0"

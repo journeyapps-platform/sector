@@ -8,10 +8,10 @@
   "dependencies": {
     "@ja-platform/reactor-mod-data-browser": "workspace:^",
     "@ja-platform/reactor-mod-sector": "workspace:^",
-    "@journeyapps/reactor-lib-server": "2.1.5",
+    "@journeyapps/reactor-lib-server": "2.1.6",
     "@journeyapps/reactor-mod": "8.2.0",
     "@journeyapps/reactor-mod-editor": "2.3.16",
-    "compression": "^1.8.1",
+    "compression": "^1.8.2",
     "express": "^5.2.1",
     "express-session": "^1.19.0",
     "tslib": "^2.8.1"

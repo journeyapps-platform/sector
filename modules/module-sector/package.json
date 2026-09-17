@@ -21,6 +21,6 @@
     "uuid": "^14.0.2"
   },
   "devDependencies": {
-    "@journeyapps/reactor-lib-builder": "3.1.5"
+    "@journeyapps/reactor-lib-builder": "3.1.6"
   }
 }

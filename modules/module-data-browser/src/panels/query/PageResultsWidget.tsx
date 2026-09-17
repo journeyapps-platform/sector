@@ -3,13 +3,13 @@ import { useEffect, useRef } from 'react';
 import { Page, PageRow } from '../../core/query/Page';
 import {
   ComboBoxItem,
-  themed,
   ioc,
-  ScrollableDivCss,
-  System,
+  LoadingPanelWidget,
   MultiSelectChangeEvent,
   MultiSelectTableWidget,
-  LoadingPanelWidget
+  ScrollableDivCss,
+  System,
+  themed
 } from '@journeyapps/reactor-mod';
 import { AbstractQuery } from '../../core/query/AbstractQuery';
 import { observer } from 'mobx-react';
@@ -93,8 +93,6 @@ export const PageResultsWidget: React.FC<PageResultsWidgetProps> = observer((pro
         <S.RowsLoading>
           <LoadingPanelWidget loading={true}>{() => null}</LoadingPanelWidget>
         </S.RowsLoading>
-      ) : rows.length === 0 ? (
-        <S.EmptyState>No results for this query</S.EmptyState>
       ) : null}
     </S.Container>
   );
@@ -106,16 +104,6 @@ namespace S {
     overflow: auto;
     height: 100%;
     ${ScrollableDivCss};
-  `;
-
-  export const EmptyState = themed.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 180px;
-    color: ${(p) => p.theme.text.secondary};
-    font-size: 14px;
-    font-weight: 500;
   `;
 
   export const RowsLoading = themed.div`

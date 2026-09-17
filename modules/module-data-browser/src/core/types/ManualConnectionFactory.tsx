@@ -18,10 +18,7 @@ export class ManualConnectionFactory extends AbstractConnectionFactory<ManualCon
     let result = await this.dialogStore.showDialog(
       new FormDialogDirective({
         form: new APIConnectionForm(),
-        title: 'Create connection',
-
-        // FIXME remove when the fix in Reactor is merged: https://github.com/journeyapps-labs/reactor/pull/32
-        handler: async () => {}
+        title: 'Create connection'
       })
     );
     if (result) {

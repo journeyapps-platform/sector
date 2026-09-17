@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { QueryPanelModel } from './QueryPanelFactory';
 import { observer } from 'mobx-react';
 import styled from '@emotion/styled';
-import { BorderLayoutWidget, LoadingPanelWidget } from '@journeyapps/reactor-mod';
+import { BorderLayoutWidget, LoadingPanelWidget, PANEL_CONTENT_PADDING } from '@journeyapps/reactor-mod';
 import { Page } from '../../core/query/Page';
 import { PageResultsWidget } from './PageResultsWidget';
 import { TableControlsWidget } from './TableControlsWidget';
@@ -136,7 +136,7 @@ export const QueryPanelWidget: React.FC<QueryPanelWidgetProps> = observer((props
                   : null
               }
             >
-              <PageResultsWidget
+              <S.PageResults
                 query={props.model.query}
                 page={activePage}
                 selectedModels={props.model.selected_models}
@@ -160,3 +160,9 @@ export const QueryPanelWidget: React.FC<QueryPanelWidgetProps> = observer((props
     </LoadingPanelWidget>
   );
 });
+
+namespace S {
+  export const PageResults = styled(PageResultsWidget)`
+    padding: ${PANEL_CONTENT_PADDING}px;
+  `;
+}

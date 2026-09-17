@@ -24,6 +24,7 @@ export interface PageResultsWidgetProps {
   onSelectionChange: (event: MultiSelectChangeEvent<PageRow>) => void;
   scrollTop: number;
   scrollLeft: number;
+  className?: any;
   onScroll: (offsets: { top: number; left: number }) => void;
 }
 
@@ -72,29 +73,29 @@ export const PageResultsWidget: React.FC<PageResultsWidgetProps> = observer((pro
   }, [props.scrollLeft, props.scrollTop]);
 
   return (
-    <S.Container
-      ref={ref}
-      onScroll={(event) => {
-        const target = event.currentTarget;
-        props.onScroll({
-          top: target.scrollTop,
-          left: target.scrollLeft
-        });
-      }}
-    >
-      <MultiSelectTableWidget
-        onContextMenu={showContextMenu}
-        selectedRowKeys={selectedRowKeys}
-        onSelectionChange={props.onSelectionChange}
-        rows={rows}
-        columns={props.query.getColumns()}
-      />
-      {props.page.loading ? (
-        <S.RowsLoading>
-          <LoadingPanelWidget loading={true}>{() => null}</LoadingPanelWidget>
-        </S.RowsLoading>
-      ) : null}
-    </S.Container>
+    <LoadingPanelWidget loading={props.page.loading}>
+      {() => (
+        <S.Container
+          className={props.className}
+          ref={ref}
+          onScroll={(event) => {
+            const target = event.currentTarget;
+            props.onScroll({
+              top: target.scrollTop,
+              left: target.scrollLeft
+            });
+          }}
+        >
+          <MultiSelectTableWidget
+            onContextMenu={showContextMenu}
+            selectedRowKeys={selectedRowKeys}
+            onSelectionChange={props.onSelectionChange}
+            rows={rows}
+            columns={props.query.getColumns()}
+          />
+        </S.Container>
+      )}
+    </LoadingPanelWidget>
   );
 });
 

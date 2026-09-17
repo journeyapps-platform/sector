@@ -1,5 +1,11 @@
 # @ja-platform/reactor-mod-data-browser
 
+## 3.6.8
+
+### Patch Changes
+
+- 7d6abaf: bug fixes
+
 ## 3.6.7
 
 ### Patch Changes
